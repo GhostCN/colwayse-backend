@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "size": {
+      "type": "string"
+    },
+    "tendance": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "isSlider": {
+      "type": "boolean",
+      "default": false
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "marque": {
+      "type": "enumeration",
+      "enum": [
+        "NIKE",
+        "JORDAN",
+        "ADIDAS",
+        "VANS",
+        "LEBRON JAMES"
+      ]
+    },
+    "imagesOthers": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
