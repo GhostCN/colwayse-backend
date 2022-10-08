@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-29T18:52:30.281Z"
+    "x-generation-date": "2022-10-08T00:43:44.843Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -94,7 +94,10 @@
         ],
         "properties": {
           "data": {
-            "required": [],
+            "required": [
+              "marque",
+              "isAvailable"
+            ],
             "type": "object",
             "properties": {
               "name": {
@@ -152,6 +155,15 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "isAvailable": {
+                "type": "string",
+                "enum": [
+                  "Dispo",
+                  "Promo",
+                  "Vendu",
+                  "VenteFlash"
+                ]
               }
             }
           }
@@ -1441,6 +1453,15 @@
                     }
                   }
                 }
+              },
+              "isAvailable": {
+                "type": "string",
+                "enum": [
+                  "Dispo",
+                  "Promo",
+                  "Vendu",
+                  "VenteFlash"
+                ]
               },
               "createdAt": {
                 "type": "string",
@@ -3027,6 +3048,15 @@
                     }
                   }
                 }
+              },
+              "isAvailable": {
+                "type": "string",
+                "enum": [
+                  "Dispo",
+                  "Promo",
+                  "Vendu",
+                  "VenteFlash"
+                ]
               },
               "createdAt": {
                 "type": "string",
@@ -4647,6 +4677,15 @@
                   }
                 }
               },
+              "isAvailable": {
+                "type": "string",
+                "enum": [
+                  "Dispo",
+                  "Promo",
+                  "Vendu",
+                  "VenteFlash"
+                ]
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -6232,6 +6271,15 @@
                     }
                   }
                 }
+              },
+              "isAvailable": {
+                "type": "string",
+                "enum": [
+                  "Dispo",
+                  "Promo",
+                  "Vendu",
+                  "VenteFlash"
+                ]
               },
               "createdAt": {
                 "type": "string",

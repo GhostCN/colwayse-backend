@@ -55,17 +55,29 @@
         "ADIDAS",
         "VANS",
         "LEBRON JAMES"
-      ]
+      ],
+      "required": true
     },
     "imagesOthers": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
+      ]
+    },
+    "isAvailable": {
+      "type": "enumeration",
+      "enum": [
+        "Dispo",
+        "Promo",
+        "Vendu",
+        "VenteFlash"
       ],
-      "type": "media",
-      "multiple": true
+      "required": true
     }
   }
 }
