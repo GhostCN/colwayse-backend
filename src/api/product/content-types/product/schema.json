@@ -70,7 +70,13 @@
       ]
     },
     "isAvailable": {
-      "type": "boolean",
+      "type": "enumeration",
+      "enum": [
+        "Dispo",
+        "Promo",
+        "Vendu",
+        "VenteFlash"
+      ],
       "required": true
     }
   }
