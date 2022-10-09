@@ -38,10 +38,6 @@
     "description": {
       "type": "richtext"
     },
-    "isSlider": {
-      "type": "boolean",
-      "default": false
-    },
     "link": {
       "type": "component",
       "repeatable": false,
