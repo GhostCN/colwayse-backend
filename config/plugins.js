@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
     config: {
       provider: 'cloudinary',
       providerOptions: {
-        cloud_name: env('dear2atz4'),
-        api_key: env('659384867732872'),
-        api_secret: env('RYn4rC06TG9nPeo0Xwuc8NnG6C0'),
+        cloud_name: env('CLOUDINARY_NAME'),
+        api_key: env('CLOUDINARY_KEY'),
+        api_secret: env('CLOUDINARY_SECRET')
       },
       actionOptions: {
         upload: {},
