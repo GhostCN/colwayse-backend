@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-10-10T16:28:22.889Z"
+    "x-generation-date": "2022-11-29T08:43:49.867Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3103,6 +3103,9 @@
                               "VenteFlash"
                             ]
                           },
+                          "slug": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -4842,6 +4845,9 @@
                               "Vendu",
                               "VenteFlash"
                             ]
+                          },
+                          "slug": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -6616,6 +6622,9 @@
                               "VenteFlash"
                             ]
                           },
+                          "slug": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -8356,6 +8365,9 @@
                               "VenteFlash"
                             ]
                           },
+                          "slug": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -8477,7 +8489,8 @@
           "data": {
             "required": [
               "marque",
-              "isAvailable"
+              "isAvailable",
+              "slug"
             ],
             "type": "object",
             "properties": {
@@ -8542,6 +8555,9 @@
                   "Vendu",
                   "VenteFlash"
                 ]
+              },
+              "slug": {
+                "type": "string"
               }
             }
           }
@@ -9837,6 +9853,9 @@
                   "Vendu",
                   "VenteFlash"
                 ]
+              },
+              "slug": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -11429,6 +11448,9 @@
                   "Vendu",
                   "VenteFlash"
                 ]
+              },
+              "slug": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -13055,6 +13077,9 @@
                   "VenteFlash"
                 ]
               },
+              "slug": {
+                "type": "string"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -14646,6 +14671,9 @@
                   "Vendu",
                   "VenteFlash"
                 ]
+              },
+              "slug": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
